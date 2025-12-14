@@ -201,13 +201,4 @@ Las sugerencias, mejoras o aportes son bienvenidos mediante **Issues** o **Pull 
 
 ```
 
----
 
-### ✅ Si quieres, puedo:
-- Ajustarlo al **formato exacto que pide tu profesor**
-- Simplificar el README para evaluación académica
-- Agregar **badges**, screenshots o gifs
-- Redactar una **defensa oral del proyecto**
-
-Dime qué sigue y lo dejamos impecable 🔥
-```
