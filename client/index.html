@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta
+      name="description"
+      content="Formamos profesionales en Tecnología, Programación y Big Data. IES Nº 9 Juana Azurduy - San Pedro de Jujuy."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="IES Nº 9 Juana Azurduy - Tecnología y Futuro"
+    />
+    <meta
+      property="og:description"
+      content="Estudia Programación, Ciencia de Datos e Inteligencia Artificial con nosotros. Inscripciones abiertas."
+    />
+    <meta
+      property="og:image"
+      content="https://ies9-juj.infd.edu.ar/sitio/wp-content/uploads/2020/05/logo-ies9.png"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <title>IES Nº 9 Juana Azurduy – Tecnología y Futuro Laboral</title>
+
+    <meta
+      name="description"
+      content="Acompañamos a instituciones y equipos a integrar inteligencia artificial y herramientas digitales con enfoque humano, ético y medible."
+    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --chat--color-primary: #001f3f !important;
+        --chat--color-secondary: #00c4cc !important;
+        --chat--header--background: #001f3f !important;
+        --chat--header--color: #ffffff !important;
+        --chat--message--user--background: #00c4cc !important;
+        --chat--message--user--color: #ffffff !important;
+        --chat--toggle--background: #001f3f !important;
+        --chat--toggle--hover--background: #003366 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+      rel="stylesheet"
+    />
+    <script type="module">
+      import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
+
+      createChat({
+        webhookUrl:
+          "https://nahu455.app.n8n.cloud/webhook/6ebff744-391e-42c2-8c5e-8d72c3af1b0d/chat",
+
+        webhookConfig: {
+          method: "POST",
+          headers: {},
+        },
+
+        // --- MEJORA VISUAL: Tamaño fijo para que no se vea apretado ---
+        mode: "window",
+        windowConfig: {
+          width: "400px",
+          height: "600px",
+        },
+        // -----------------------------------------------------------
+
+        chatInputKey: "chatInput",
+        // Al cambiar el nombre, el chat creerá que es una sesión nueva y cargará los cambios
+        chatSessionKey: "sessionId",
+        loadPreviousSession: true,
+        metadata: {},
+        showWelcomeScreen: false,
+        defaultLanguage: "en",
+
+        // --- MENSAJES DE BIENVENIDA PROFESIONALES ---
+        initialMessages: [
+          "¡Hola! 👋 Bienvenido al IES Nº 9 Juana Azurduy.",
+          "Soy tu asistente virtual especializado en el Instituto de Educacion Superior N°9 Juana Azurduy. ¿En qué puedo orientarte hoy?",
+        ],
+
+        // --- INTERFAZ TRADUCIDA AL ESPAÑOL ---
+        i18n: {
+          en: {
+            title: "Asistente IES 9 🎓",
+            subtitle: "Tecnología y Futuro Laboral. Estamos para ayudarte.",
+            footer: "Desarrollado por Alumnos de Programación",
+            getStarted: "Nueva Consulta",
+            inputPlaceholder: "Escribe tu pregunta aquí...",
+          },
+        },
+
+        enableStreaming: false,
+      });
+    </script>
+  </body>
+</html>

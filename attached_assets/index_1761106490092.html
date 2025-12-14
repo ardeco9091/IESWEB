@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      IES Nº 9 Juana Azurduy – Tecnología y Futuro Laboral (Prototipo)
+    </title>
+    <style>
+      :root {
+        --azul: #001f3f;
+        --cian: #00c4cc;
+        --gris: #f5f7fa;
+      }
+      body {
+        margin: 0;
+        font:
+          16px/1.6 "Open Sans",
+          Arial,
+          sans-serif;
+        color: #0b1220;
+        background: #fff;
+      }
+      header {
+        background: var(--azul);
+        color: #fff;
+        padding: 56px 24px;
+      }
+      header h1 {
+        margin: 12px 0 8px;
+        font:
+          700 40px "Montserrat",
+          Arial;
+      }
+      header p {
+        max-width: 900px;
+        margin: 0 0 16px;
+      }
+      .btn {
+        display: inline-block;
+        background: var(--cian);
+        color: #001018;
+        padding: 12px 22px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 24px;
+      }
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      .kpi {
+        background: var(--gris);
+        border-radius: 12px;
+        padding: 18px;
+      }
+      .kpi .num {
+        font:
+          800 36px Montserrat,
+          Arial;
+        color: var(--cian);
+      }
+      h2 {
+        font:
+          700 28px Montserrat,
+          Arial;
+        margin-top: 24px;
+      }
+      footer {
+        background: #0f172a;
+        color: #c5d3d9;
+        padding: 36px 24px;
+        margin-top: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="assets/logo.svg"
+        alt="IES Nº 9 Juana Azurduy – Tecnología y Futuro Laboral"
+        style="max-width: 420px; display: block"
+      />
+      <h1>Tecnología, educación e innovación para el futuro del trabajo</h1>
+      <p>
+        Acompañamos a instituciones y equipos a integrar inteligencia artificial
+        y herramientas digitales con enfoque humano, ético y medible.
+      </p>
+      <a class="btn" href="#contacto">Agendar consulta</a>
+    </header>
+
+    <main class="wrap">
+      <section>
+        <div class="kpis">
+          <div class="kpi">
+            <div class="num">37%</div>
+            <div>
+              de tareas administrativas pueden automatizarse en educación.
+            </div>
+          </div>
+          <div class="kpi">
+            <div class="num">60%</div>
+            <div>
+              de empleos incorporarán IA como apoyo en la próxima década.
+            </div>
+          </div>
+          <div class="kpi">
+            <div class="num">3x</div>
+            <div>
+              mejora en tiempos de diseño curricular con flujos asistidos.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Tecnología</h2>
+        <p>
+          <strong>Aprendizaje automatizado</strong>: recomendación y evaluación
+          adaptativa.
+        </p>
+        <p>
+          <strong>Herramientas en el aula</strong>: flujos de trabajo prácticos
+          y accesibles.
+        </p>
+        <p>
+          <strong>Ética y transformación</strong>: privacidad, sesgos y
+          políticas de uso.
+        </p>
+      </section>
+
+      <section>
+        <h2>Portafolio</h2>
+        <ul>
+          <li>
+            <strong>IA en el aula</strong> – Pilotaje de herramientas de apoyo
+            docente.
+          </li>
+          <li>
+            <strong>Aprendizaje adaptativo</strong> – Rutas personalizadas por
+            desempeño.
+          </li>
+          <li>
+            <strong>Simulación cognitiva</strong> – Talleres de razonamiento
+            asistido.
+          </li>
+        </ul>
+      </section>
+
+      <h1>Mi Video</h1>
+
+      <video width="640" height="360" controls>
+        <source src="mi_video.mp4" type="Descargas/mi_video.mp4" />
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+          Escríbenos y conversemos cómo impulsar tu proyecto con tecnología
+          responsable.
+        </p>
+        <p><em>El futuro se diseña, no se espera.</em></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">© De la Villarmois – Tecnología y Futuro Laboral</div>
+    </footer>
+  </body>
+</html>

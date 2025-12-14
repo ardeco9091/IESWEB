@@ -1,0 +1,26 @@
+
+GUÍA RÁPIDA – Prototipo WordPress.com (GRATIS)
+=============================================
+
+1) Crea una cuenta en https://wordpress.com y elige un sitio GRATUITO.
+2) Escoge un tema base moderno (recomendado: "Twenty Twenty-Four" o "Twenty Twenty-Five").
+3) Ve a Apariencia → Editor del sitio → Estilos → Personalizar:
+   - Colores: Azul profundo (#001F3F), Cian (#00C4CC), Blanco (#FFFFFF), Gris (#F5F7FA).
+   - Tipografías: Montserrat para encabezados, Open Sans para cuerpo.
+4) Ve a Ajustes → General y coloca el título del sitio: “De la Villarmois – Tecnología y Futuro Laboral”.
+5) Sube el logo: /assets/logo.svg (Apariencia → Identidad del sitio).
+6) Página de Inicio:
+   - Crea una nueva página “Inicio” y usa el archivo content/copy_blocks.md.
+   - Copia y pega los fragmentos de bloques dentro del editor de bloques de WordPress (Gutenberg).
+   - Reemplaza [SUBE-ESTE-LOGO-URL] por la URL del logo que subiste en la biblioteca de medios.
+7) Crea las secciones/páginas adicionales: Acerca / Tecnología / Carreras / Portafolio / Blog / Contacto.
+8) Asigna “Inicio” como página de inicio (Ajustes → Lectura → Página de inicio → una página estática).
+9) CSS opcional (WordPress.com: Apariencia → Personalizar → CSS adicional): pega style/additional-css.css
+10) Blog: publica al menos 3 entradas.
+
+EXPORTAR MÁS ADELANTE
+---------------------
+• Cuando quieras pasar a un hosting propio (WordPress.org), en Herramientas → Exportar puedes descargar tus contenidos.
+• Podrás importar en otra instalación y mantener copy/estructura. Los estilos se pueden recrear con theme.json.
+
+¡Listo!
