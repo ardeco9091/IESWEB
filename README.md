@@ -1,4 +1,23 @@
+<div align="center">
 
+  # IES Nº 9 Juana Azurduy
+  ### Tecnología y Futuro Laboral
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+  </p>
+
+  <p>
+    <a href="https://iesweb.onrender.com">
+      <img src="https://img.shields.io/badge/🌐_Visitar_Sitio_Web-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+    </a>
+  </p>
+
+</div>
 # 🌐 IESWEB
 
 IESWEB es un **proyecto académico** que consiste en una **página web institucional para un Instituto de Educación Superior**, la cual integra un **chatbot con Inteligencia Artificial** capaz de informar a los usuarios sobre:
