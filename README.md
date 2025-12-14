@@ -4,7 +4,7 @@
   ### Tecnología y Futuro Laboral
 
   <div align="center">
-  <img src="attached_assets/banner.jpg" alt="Banner IES 9" width="100%" />
+  <img src="attached_assets/banner.png" alt="Banner IES 9" width="100%" />
 </div>
 <br/>
 
