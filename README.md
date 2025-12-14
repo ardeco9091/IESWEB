@@ -3,6 +3,11 @@
   # IES Nº 9 Juana Azurduy
   ### Tecnología y Futuro Laboral
 
+  <div align="center">
+  <img src="attached_assets/banner.jpg" alt="Banner IES 9" width="100%" />
+</div>
+<br/>
+
   <p>
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
     <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
