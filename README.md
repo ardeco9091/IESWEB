@@ -199,6 +199,5 @@ GitHub: [https://github.com/ardeco9091](https://github.com/ardeco9091)
 Este proyecto fue realizado con fines educativos.
 Las sugerencias, mejoras o aportes son bienvenidos mediante **Issues** o **Pull Requests**.
 
-```
 
 
